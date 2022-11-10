@@ -5,28 +5,26 @@
 
 
 Requirements
-=====
 * Python 3.x
 * termcolor
 * colorama
 * requests
 * mechanize
-
-Download/Installation
-====
-* git clone https://github.com/maldevel/IPGeoLocation
+#
+**Installation Packages..**
+* git clone https://github.com/poisk-ls/IP-Info-Viewer
 * pip3 install -r requirements.txt --user
 
-if pip3 is missing:
+**If pip3 is missing:**
 * apt-get install python3-setuptools
 * easy_install3 pip
 * pip3 install -r requirements.txt
-
+#
 
 Features
 ====
-* Retrieve IP or Domain Geolocation.
-* Retrieve your own IP Geolocation.
+* Retrieve IP or Domain Location.
+* Retrieve your own IP Location.
 * Retrieve Geolocation for IPs or Domains loaded from file. Each target in new line.
 * Define your own custom User Agent string.
 * Select random User-Agent strings from file. Each User Agent string in new line.
